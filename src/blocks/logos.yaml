@@ -1,0 +1,33 @@
+name: Logos
+description: Point out people talking about your brand with a logo showcase. Accepts an array of up to six images.
+preview: '/logos.png'
+jsx: |
+  import Logos from '../blocks/logos'
+
+  <Logos
+    id=""
+    logos={[]}
+    />
+html: |
+  <section class="block logos" id="" data-reactid="93">
+    <div class="container" data-reactid="94">
+      <div class="animated fadeIn" style="animation-duration: 1s; opacity: 1;" data-reactid="95">
+        <img class="press-logo" src="" alt="The logo of an organisation talking about us." data-reactid="96">
+      </div>
+      <div class="animated fadeIn" style="animation-duration: 1s; opacity: 1;" data-reactid="97">
+        <img class="press-logo" src="" alt="The logo of an organisation talking about us." data-reactid="98">
+      </div>
+      <div class="animated fadeIn" style="animation-duration: 1s; opacity: 1;" data-reactid="99">
+        <img class="press-logo" src="" alt="The logo of an organisation talking about us." data-reactid="100">
+      </div>
+      <div class="animated fadeIn" style="animation-duration: 1s; opacity: 1;" data-reactid="101">
+        <img class="press-logo" src="" alt="The logo of an organisation talking about us." data-reactid="102">
+      </div>
+      <div class="animated fadeIn" style="animation-duration: 1s; opacity: 1;" data-reactid="103">
+        <img class="press-logo" src="" alt="The logo of an organisation talking about us." data-reactid="104">
+      </div>
+      <div class="animated fadeIn" style="animation-duration: 1s; opacity: 1;" data-reactid="105">
+        <img class="press-logo" src="" alt="The logo of an organisation talking about us." data-reactid="106">
+      </div>
+    </div>
+  </section>

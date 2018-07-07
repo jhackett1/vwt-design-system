@@ -1,0 +1,71 @@
+*
+  font-family: sans-serif
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+.container
+  margin: 0 auto
+  max-width: 1000px
+  padding: 20px
+
+body
+  background: #f6f6f6
+
+h1, h2, h3, h4, h5, p, pre, small, img, .button, ul, ol
+  margin-bottom: 20px
+
+.page-title
+  margin-bottom: 50px
+  font-size: 2.5em
+
+ul, ol
+  margin-left: 20px
+
+header
+  background: #424651
+  margin-bottom: 30px
+  .container
+    padding: 10px 20px
+  h1
+    margin-bottom: 0px
+  a
+    color: white
+    text-decoration: none
+
+.button
+  display: inline-block
+  background-color: #2DAF79
+  color: white
+  text-decoration: none
+  padding: 15px
+  border-bottom: 3px solid darken(#2DAF79, 10)
+
+.block-list
+  list-style-type: none
+  margin-left: 0px
+  .block-list-item
+    background: white
+    padding: 25px
+    margin-bottom: 30px
+    & > *:last-child
+      margin-bottom: 0px !important
+    img
+      margin-top: -15px
+      max-width: 100%
+    small
+      display: block
+      opacity: 0.5
+      cursor: pointer
+      svg
+        transform: translateY(-2px)
+      &:hover
+        opacity: 0.75
+    pre
+      padding: 20px
+      // background-color: #f6f6f6
+      border: 1px solid #dfdfdf
+      overflow-x: scroll
+      margin-top: -15px
+      code
+        font-family: monospace
